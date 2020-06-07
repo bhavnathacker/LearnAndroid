@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:showIn="navigation_view">
+
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_home"
+      android:icon="@drawable/ic_menu_camera"
+      android:title="@string/menu_home" />
+    <item
+      android:id="@+id/nav_codelabs"
+      android:icon="@drawable/ic_menu_codelabs"
+      android:title="@string/menu_codelabs" />
+    <item
+      android:id="@+id/nav_webinars"
+      android:icon="@drawable/ic_menu_webinars"
+      android:title="@string/menu_webinars" />
+    <item
+        android:id="@+id/nav_youtube"
+        android:icon="@drawable/ic_menu_youtube"
+        android:title="@string/menu_youtube" />
+    <item
+        android:id="@+id/nav_facebook"
+        android:icon="@drawable/ic_menu_facebook"
+        android:title="@string/menu_facebook" />
+    <item
+        android:id="@+id/nav_twitter"
+        android:icon="@drawable/ic_menu_twitter"
+        android:title="@string/menu_twitter" />
+  </group>
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/mobile_navigation"
+  app:startDestination="@+id/nav_home">
+
+  <fragment
+    android:id="@+id/nav_home"
+    android:name="com.bhavnathacker.learnandroid.ui.home.HomeFragment"
+    android:label="@string/menu_home"
+    tools:layout="@layout/fragment_home" />
+
+  <fragment
+    android:id="@+id/nav_codelabs"
+    android:name="com.bhavnathacker.learnandroid.ui.codelabs.CodeLabFragment"
+    android:label="@string/menu_codelabs"
+    tools:layout="@layout/fragment_codelabs" />
+
+  <fragment
+    android:id="@+id/nav_webinars"
+    android:name="com.bhavnathacker.learnandroid.ui.webinar.WebinarFragment"
+    android:label="@string/menu_webinars"
+    tools:layout="@layout/fragment_webinars" />
+
+  <fragment
+      android:id="@+id/nav_youtube"
+      android:name="com.bhavnathacker.learnandroid.ui.youtube.YoutubeFragment"
+      android:label="@string/menu_youtube"
+      tools:layout="@layout/fragment_youtube" />
+
+  <fragment
+      android:id="@+id/nav_facebook"
+      android:name="com.bhavnathacker.learnandroid.ui.facebook.FacebookFragment"
+      android:label="@string/menu_facebook"
+      tools:layout="@layout/fragment_facebook" />
+
+  <fragment
+      android:id="@+id/nav_twitter"
+      android:name="com.bhavnathacker.learnandroid.ui.twitter.TwitterFragment"
+      android:label="@string/menu_twitter"
+      tools:layout="@layout/fragment_twitter" />
+</navigation>

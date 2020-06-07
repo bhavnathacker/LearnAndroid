@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">LearnAndroid</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="nav_header_title">Learn Android</string>
+  <string name="nav_header_subtitle">developer.android.com</string>
+  <string name="nav_header_desc">Navigation header</string>
+
+  <string name="menu_home">Home</string>
+  <string name="menu_codelabs">Codelabs</string>
+  <string name="menu_webinars">Webinars</string>
+  <string name="menu_youtube">Youtube channels</string>
+  <string name="menu_facebook">Follow on Facebook</string>
+  <string name="menu_twitter">Follow on Twitter</string>
+
+  <string name="home_screen_text">Welcome to Learn Android!\n\nHere you will find quality resources from Google itself on learning Android from Scratch upto Advanced level. \n\nPractice codelabs \n\nWatch Webinars\n\nSubscribe to youtube channels \n\n Follow on Social Media \n\nTrack Learning and Subscription/Follow status by updating the same in the App Here by clicking on Status</string>
+
+  <string name="minutes_60">60 mins</string>
+  <string name="update_status_to">Updated Status to?</string>
+</resources>
